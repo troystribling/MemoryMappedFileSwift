@@ -1,0 +1,8 @@
+*.xcuserstate
+*.xcscheme
+*.xcbkptlist
+MemoryMappedFileSwift.xcodeproj/xcuserdata/*
+MemoryMappedFileSwift.xcodeproj/project.xcworkspace/xcuserdata/*
+MemoryMappedFileSwift.xcodeproj/project.xcworkspace/xcshareddata/*
+MemoryMappedFileSwift.xcodeproj/project.xcworkspace/xcshareddata/*
+.DS_Store
