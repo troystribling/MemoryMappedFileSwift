@@ -38,14 +38,12 @@ public struct MemoryMappedFile {
     
     public func fstat() -> Stat? {
         var statBuffer = UnsafeMutablePointer<stat>.alloc(1)
-        let result = withUnsafeMutablePointer(statBuffer) {ptr -> Int32 in
-            return fstat(self.fd, ptr)
-        }
+//        fstat(CInt(self.fd), statBuffer)
         return nil
     }
     
     public func close() {
-        
+        close(self.fd)
     }
     
 }

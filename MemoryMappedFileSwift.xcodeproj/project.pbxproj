@@ -12,7 +12,7 @@
 		05FB841D1B894D220079A85F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05FB841B1B894D220079A85F /* Main.storyboard */; };
 		05FB841F1B894D220079A85F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05FB841E1B894D220079A85F /* Assets.xcassets */; };
 		05FB84221B894D220079A85F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05FB84201B894D220079A85F /* LaunchScreen.storyboard */; };
-		05FB842A1B8A26350079A85F /* MemoryMapped.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FB84291B8A26350079A85F /* MemoryMapped.swift */; };
+		05FB842A1B8A26350079A85F /* MemoryMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FB84291B8A26350079A85F /* MemoryMap.swift */; };
 		05FB842C1B8A285A0079A85F /* MemoryMappedFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FB842B1B8A285A0079A85F /* MemoryMappedFile.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +24,7 @@
 		05FB841E1B894D220079A85F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05FB84211B894D220079A85F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05FB84231B894D220079A85F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		05FB84291B8A26350079A85F /* MemoryMapped.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryMapped.swift; sourceTree = "<group>"; };
+		05FB84291B8A26350079A85F /* MemoryMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryMap.swift; sourceTree = "<group>"; };
 		05FB842B1B8A285A0079A85F /* MemoryMappedFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryMappedFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,7 +64,7 @@
 				05FB841E1B894D220079A85F /* Assets.xcassets */,
 				05FB84201B894D220079A85F /* LaunchScreen.storyboard */,
 				05FB84231B894D220079A85F /* Info.plist */,
-				05FB84291B8A26350079A85F /* MemoryMapped.swift */,
+				05FB84291B8A26350079A85F /* MemoryMap.swift */,
 				05FB842B1B8A285A0079A85F /* MemoryMappedFile.swift */,
 			);
 			path = MemoryMappedFileSwift;
@@ -143,7 +143,7 @@
 				05FB841A1B894D220079A85F /* ViewController.swift in Sources */,
 				05FB842C1B8A285A0079A85F /* MemoryMappedFile.swift in Sources */,
 				05FB84181B894D220079A85F /* AppDelegate.swift in Sources */,
-				05FB842A1B8A26350079A85F /* MemoryMapped.swift in Sources */,
+				05FB842A1B8A26350079A85F /* MemoryMap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +291,7 @@
 				05FB84281B894D220079A85F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
